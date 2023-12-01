@@ -22,6 +22,7 @@
   --color-default: #364d59;
   --color-primary: #feb900;
   --color-secondary: #52565e;
+  --color-white:#f5f6f7;
 }
 
 /* Smooth scroll behavior */
@@ -1880,7 +1881,7 @@ section {
 }
 
 .hero .info h2 {
-  color: #fff;
+  color:  rgba(254, 185, 0, 0.8);
   margin-bottom: 30px;
   padding-bottom: 30px;
   font-size: 56px;
@@ -1894,7 +1895,7 @@ section {
   display: block;
   width: 80px;
   height: 4px;
-  background: var(--color-primary);
+  background: var( --color-white);
   left: 0;
   right: 0;
   bottom: 0;
